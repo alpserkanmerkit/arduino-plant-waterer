@@ -1,0 +1,43 @@
+{
+  "svg": "wiring.svg",
+  "sketches": [
+    "../plant-watering.ino"
+  ],
+  "pins": [
+    {
+      "uno": "5V",
+      "to": "top + rail",
+      "step": 1,
+      "symbols": []
+    },
+    {
+      "uno": "GND",
+      "to": "top − rail",
+      "step": 2,
+      "symbols": []
+    },
+    {
+      "uno": "D9",
+      "to": "servo signal",
+      "step": 8,
+      "symbols": [
+        "SERVO_PIN"
+      ]
+    },
+    {
+      "uno": "A0",
+      "to": "soil sensor SIG",
+      "step": 11,
+      "symbols": [
+        "SOIL_PIN"
+      ]
+    }
+  ],
+  "free_code_pins": [],
+  "unknown": [
+    "D9 printed label covered by the wire (9th hole of the 10-pin header -> D9, medium confidence)",
+    "sensor pin labels not legible (roles from the wires: yellow from + rail, brown from − rail, green to A0)",
+    "servo connector labels not legible (roles from the wires: grey from − rail, orange from + rail, purple to D9)",
+    "original Tinkercad code, moisture threshold and the water mechanism (bottle / valve / pump) not known"
+  ]
+}
